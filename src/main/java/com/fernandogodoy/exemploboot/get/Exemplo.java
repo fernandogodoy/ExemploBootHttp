@@ -1,6 +1,5 @@
-package com.fernandogodoy.exemploboot;
+package com.fernandogodoy.exemploboot.get;
 
-import com.fernandogodoy.exemploboot.http.Http;
 import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -10,13 +9,13 @@ import java.util.regex.Pattern;
  *
  * @author Fernando Godoy
  */
-public class ExemploGet {
+public class Exemplo {
 
     private static final String URL = "https://fernandogodoy.wordpress.com/";
     private static final String EXPRESSAO_REGULAR = "<a href=\"http://fernandogodoy.wordpress.com/[0-9]+/[0-9]+/[0-9]+/.*?/\" title=\".*?\">(.*?)</a>";
 
     public static void main(String[] args) throws IOException {
-        Http http = new Http();
+        MyHttpGetImp http = new MyHttpGetImp();
         extract(http.get(URL));
     }
 

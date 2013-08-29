@@ -1,4 +1,4 @@
-package com.fernandogodoy.exemploboot.http;
+package com.fernandogodoy.exemploboot.get;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import org.apache.http.util.EntityUtils;
  *
  * @author Fernando Godoy
  */
-public class Http {
+public class MyHttpGetImp {
 
     /**
      * Executa um HTTP GET em uma URL
