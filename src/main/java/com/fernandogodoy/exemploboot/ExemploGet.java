@@ -1,6 +1,6 @@
 package com.fernandogodoy.exemploboot;
 
-import com.teste.project.exemploboo.http.Http;
+import com.fernandogodoy.exemploboot.http.Http;
 import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

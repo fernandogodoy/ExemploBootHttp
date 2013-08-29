@@ -1,4 +1,4 @@
-package com.teste.project.exemploboo.http;
+package com.fernandogodoy.exemploboot.http;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
