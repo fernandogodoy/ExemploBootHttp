@@ -1,6 +1,6 @@
-package com.teste.project.exemplo.boot.expressao.regular;
+package com.fernandogodoy.exemploboot;
 
-import com.teste.project.exemplo.boot.expressao.regular.http.Http;
+import com.teste.project.exemploboo.http.Http;
 import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
